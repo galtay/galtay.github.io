@@ -2,37 +2,39 @@
 layout: splash
 
 permalink: /
-hidden: true
+
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/spiral-shells.jpg
-  overlay_filter: 0.5
+#  overlay_image: /assets/images/spiral-shells.jpg
+  overlay_filter: 0.7
 
-title: Hello World!
+title: Welcome
 
-excerpt: A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
+excerpt: I am a machine learning scientist with a background in computational physics and a passion for continuous learning.
 
 
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/sci-cats.jpg
+    alt: "projects"
+    title: "Projects"
+    excerpt: "My projects."
+    url: "/projects/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+
+  - image_path: /assets/images/tweed-book.jpg
+    alt: "blog"
+    title: "Posts"
+    excerpt: "My posts."
+    url: "/posts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+
+  - image_path: /assets/images/young-towers.jpg
+    alt: "about"
+    title: "About Me"
+    excerpt: "My about"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
