@@ -1,9 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-author_profile: false
+author_profile: true
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
-
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Academic training as a computational physicist and astronomer followed by 7+ years industry experience tackling machine learning and data problems at mid stage startups. Comfortable implementing prototypes in notebooks and writing production ready Python code. Strong understanding of data pipelining as well as model development, deployment, and evaluation. Experience at the individual contributor and team manager level. Passionate about continuous learning and open source development. Plays well with others.
