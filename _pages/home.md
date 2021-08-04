@@ -17,7 +17,7 @@ feature_row:
   - image_path: /assets/images/sci-cats.jpg
     alt: "projects"
     title: "Projects"
-    excerpt: "My projects."
+    excerpt: ""
     url: "/projects/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -25,7 +25,7 @@ feature_row:
   - image_path: /assets/images/tweed-book.jpg
     alt: "blog"
     title: "Posts"
-    excerpt: "My posts."
+    excerpt: ""
     url: "/posts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -33,7 +33,7 @@ feature_row:
   - image_path: /assets/images/young-towers.jpg
     alt: "about"
     title: "About Me"
-    excerpt: "My about"
+    excerpt: ""
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
