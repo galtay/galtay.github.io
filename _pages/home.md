@@ -14,6 +14,14 @@ excerpt: I am a machine learning scientist with a background in computational ph
 
 
 feature_row:
+  - image_path: /assets/images/young-towers.jpg
+    alt: "about"
+    title: "About Me"
+    excerpt: ""
+    url: "/about/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+
   - image_path: /assets/images/sci-cats.jpg
     alt: "projects"
     title: "Projects"
@@ -27,14 +35,6 @@ feature_row:
     title: "Posts"
     excerpt: ""
     url: "/posts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-
-  - image_path: /assets/images/young-towers.jpg
-    alt: "about"
-    title: "About Me"
-    excerpt: ""
-    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
