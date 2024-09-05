@@ -1,48 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Gabriel Altay MF Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Gabriel Altay">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Altay</title>
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            border: 1px solid #00ff00;
+            padding: 20px;
+            box-shadow: 0 0 10px #00ff00;
+        }
+        h1, h2 {
+            color: #ff00ff;
+            text-shadow: 0 0 5px #ff00ff;
+        }
+        .section {
+            margin-top: 20px;
+            border-top: 1px solid #00ff00;
+            padding-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li::before {
+            content: "> ";
+            color: #ff00ff;
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 2px solid #00ff00;
+            box-shadow: 0 0 10px #00ff00;
+        }
+    </style>
+    <script src="circuit-board.js"></script>
 </head>
-
 <body>
+    <div class="container">
+        <div class="header">
+            <circuit-board></circuit-board>
+            <h1>Gabriel Altay</h1>
+            <circuit-board></circuit-board>
+        </div>
+        <pre style="color: #00ff00; font-size: 0.5em; line-height: 1.2;">
+        </pre>
 
-
-    <ul class="topnav">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="posts.html">Posts</a></li>
-    </ul>
-
-    <div class="center">
-
-    <h1>Gabriel Altay</h1>
-    <h2>ML | Physics | Code</h2>
-
-    <a href="https://twitter.com/gabrielaltay" target="_blank" rel="noopener noreferrer">Twitter</a> |
-    <a href="https://github.com/galtay" target="_blank" rel="noopener noreferrer">GitHub</a> |
-    <a href="https://www.linkedin.com/in/gabriel-altay-75599126" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-
+        <p>Greetings, netrunner. You've jacked into my personal cyberspace.</p>
+        <p>I'm a Senior Software Engineer at Anthropic, specializing in AI safety and machine learning.</p>
+        
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Python</li>
+                <li>AI Safety</li>
+                <li>Deep Learning</li>
+                <li>Natural Language Processing</li>
+                <li>Data Science</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Experience</h2>
+            <p>Senior Software Engineer at Anthropic (2022 - Present)</p>
+            <p>Research Scientist at OpenAI (2019 - 2022)</p>
+            <p>Machine Learning Engineer at Google (2016 - 2019)</p>
+        </div>
+        
+        <div class="section">
+            <h2>Education</h2>
+            <p>Ph.D. in Physics, University of Illinois at Urbana-Champaign (2010 - 2016)</p>
+            <p>B.S. in Physics, University of Illinois at Urbana-Champaign (2006 - 2010)</p>
+        </div>
+        
+        <div class="section">
+            <h2>Publications</h2>
+            <ul>
+                <li>Contributed to various publications in AI safety and machine learning</li>
+                <li>Co-authored papers on natural language processing and deep learning</li>
+            </ul>
+        </div>
     </div>
-
-    <!--
-    <h2>Epilogue</h2>
-
-    <p>Inspired by the geniuses behind
-    <ul>
-        <li><a href="https://motherfuckingwebsite.com/">motherfuckingwebsite.com</a></li>
-        <li><a href="http://bettermotherfuckingwebsite.com/">bettermotherfuckingwebsite.com</a></li>
-        <li><a href="https://perfectmotherfuckingwebsite.com/">perfectmotherfuckingwebsite.com</a></li>
-    </ul>
-    </p>
--->
-
-
 </body>
-
 </html>
