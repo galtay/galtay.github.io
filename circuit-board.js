@@ -5,6 +5,18 @@ class CircuitBoard extends HTMLElement {
     this.render();
   }
 
+  connectedCallback() {
+    this.updateRotation();
+  }
+
+  updateRotation() {
+    const rotation = this.getAttribute('rotation') || '0';
+    const circuitBoard = this.shadowRoot.querySelector('.circuit-board');
+    if (circuitBoard) {
+      circuitBoard.style.transform = `rotate(${rotation}deg)`;
+    }
+  }
+
   render() {
     this.shadowRoot.innerHTML = `
       <style>
@@ -17,6 +29,7 @@ class CircuitBoard extends HTMLElement {
           width: 100%;
           height: 100%;
           position: relative;
+          transition: transform 0.3s ease;
         }
         .line {
           position: absolute;
@@ -67,6 +80,7 @@ class CircuitBoard extends HTMLElement {
         ${this.generateIntersections(7)}
       </div>
     `;
+    this.updateRotation();
   }
 
   generateLines(direction, count) {
