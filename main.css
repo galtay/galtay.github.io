@@ -21,6 +21,18 @@ h1, h2 {
     text-shadow: 0 0 5px #ff00ff;
 }
 
+a {
+    color: #00ff00;
+    text-decoration: none;
+    text-shadow: 0 0 5px #00ff00;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff;
+}
+
 .section {
     margin-top: 20px;
     border-top: 1px solid #00ff00;
