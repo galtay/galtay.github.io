@@ -22,16 +22,16 @@ h1, h2 {
 }
 
 a {
-    color: #00ff00;
+    color: #00ff00; /* Bright green for unvisited links */
     text-decoration: none;
-    text-shadow: 0 0 5px #00ff00;
-    transition: color 0.3s ease, text-shadow 0.3s ease;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: #ff00ff;
-    text-shadow: 0 0 5px #ff00ff;
+    color: #00ffff; /* Cyan for hover */
 }
+
 
 .section {
     margin-top: 20px;
